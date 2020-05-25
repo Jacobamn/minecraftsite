@@ -244,7 +244,7 @@ body, html {
 .grid-header {
 	display: grid;
   grid-template-columns: repeat(50, 1fr);
-  grid-template-rows: repeat(13, 20px);
+  grid-template-rows: repeat(13, 1fr);
   grid-column-gap: 1px;
   grid-row-gap: 1px;
 	background-image: url('../img/marsh.png');
@@ -294,7 +294,21 @@ body, html {
 	grid-column-start: 1;
 	grid-column-end: -1;
 	grid-row-start: 96;
-	grid-row-end: span 54;
+	grid-row-end: span 5;
   color: white;
+	margin-left: -10.5vw;
+	margin-right: -10.5vw;
 }
 
+/* Footer */
+.forum-footer {
+	display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+	background-color: black;
+  color: white;
+	margin-left: -10.5vw;
+	margin-right: -10.5vw;
+}
