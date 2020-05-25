@@ -129,7 +129,6 @@ body, html {
 	grid-column-end: 51;
 	grid-row-start: 10;
 	grid-row-end: 15;
-  margin-bottom: 5px;
 	margin-left: -10.5vw;
 	margin-right: -10.5vw;
 }
@@ -264,9 +263,9 @@ body, html {
 	grid-column-end: 51;
 	grid-row-start: 10;
 	grid-row-end: 15;
-  margin-bottom: 5px;
 	margin-left: -10.5vw;
 	margin-right: -10.5vw;
+	margin-top: 5px;
 }
 
 .forum-menu-bar {
@@ -277,6 +276,7 @@ body, html {
 	grid-row-end: span 2;
 	margin-left: -10.5vw;
 	margin-right: -10.5vw;
+	margin-top: 5px;
 }
 
 .forum-menu {
@@ -285,7 +285,7 @@ body, html {
 	grid-row-start: 11;
 	grid-row-end: span 2;
   margin-right: 5px;
-  margin-bottom: 5px;
+	margin-top: 5px;
 }
 
 /* Footer */
