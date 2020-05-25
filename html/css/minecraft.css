@@ -220,10 +220,10 @@ body, html {
 
 @media (max-width: 1350px) {
   .center-container {
-    grid-column-start: 7;
-    grid-column-end: 46;
-    grid-row-start: 15;
-    grid-row-end: span 30;
+  grid-column-start: 7;
+  grid-column-end: 46;
+  grid-row-start: 15;
+  grid-row-end: span 30;
   }
 }
 
@@ -240,6 +240,52 @@ body, html {
 	grid-column-end: 43;
   grid-row-start: 1;
   grid-row-end: span 54;
+}
+/* Forum */
+.grid-header {
+	display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(13, 20px);
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+	background-image: url('../img/marsh.png');
+  background-color: #404040;
+  background-size: cover;
+  grid-column: 1 / -1;
+  grid-row-start: 1;
+  grid-row-end: span 8;
+	z-index: 2;
+}
+
+
+.forum-menu-bar-bg {
+  background-color: #666666;
+  grid-column-start: 1;
+	grid-column-end: 51;
+	grid-row-start: 10;
+	grid-row-end: 15;
+  margin-bottom: 5px;
+	margin-left: -10.5vw;
+	margin-right: -10.5vw;
+}
+
+.forum-menu-bar {
+  background-color: #737373;
+  grid-column-start: 1;
+	grid-column-end: 51;
+	grid-row-start: 11;
+	grid-row-end: span 2;
+	margin-left: -10.5vw;
+	margin-right: -10.5vw;
+}
+
+.forum-menu {
+  grid-column-start: 1;
+	grid-column-end: 51;
+	grid-row-start: 11;
+	grid-row-end: span 2;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 /* Footer */
