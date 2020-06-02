@@ -8,6 +8,7 @@ body, html {
   margin: 0px;
   background-color: #000000;
   opacity: 1.0;
+	overflow-x: hidden;
 }
 .container {
   max-width: 1500px;
@@ -251,9 +252,7 @@ body, html {
 	background-image: url('../img/marsh.png');
   background-color: #404040;
   background-size: cover;
-  grid-column: 1 / -1;
-  grid-row-start: 1;
-  grid-row-end: span 8;
+
 	z-index: 2;
 }
 
