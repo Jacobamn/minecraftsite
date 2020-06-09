@@ -54,8 +54,8 @@ body, html {
 	background-color: #999999;
   grid-column-start: 36;
 	grid-column-end: 45;
-	grid-row-start: 9;
-	grid-row-end: 13;
+	grid-row-start: 10;
+	grid-row-end: 14;
 	z-index: 3;
   margin-top: 12px;
   margin-left: -5px;
@@ -71,6 +71,14 @@ body, html {
   }
 }
 
+@media (max-width: 785px) {
+  .server-address {
+  grid-column-start: 39;
+	grid-column-end: 48;
+	grid-row-start: 10;
+	grid-row-end: 14;
+  }
+}
 .server-address-text {
 	color: black;
   font-weight: bold;
