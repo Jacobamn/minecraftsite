@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Minecraft</title>
+  <title>Concordia</title>
   <meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="img/favicon.png"/>
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/minecraft.css" rel="stylesheet" type="text/css">
   <script src="js/minecraft.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -15,11 +17,10 @@
 
 <!-- Server address -->
 
-
 	<div class="server-address">
 		<div class="server-address-text">
 		Join us at<br>
-		<button class="address-button" id="copy">concordia.mcserver.us</button>
+		<button class="address-button"  onclick="copyToClipboard('#p1')" id="p1">concordia.mcserver.us</button>
 
 
 
@@ -64,7 +65,7 @@
 
 	<div class="center-container">
     <img src="img/airship.png" class="frontpage-center-img" alt="placeholder">
-		</img>
+
 	</div>
 
 <iframe class="discord" src="https://discordapp.com/widget?id=217170846257512448&theme=dark" allowtransparency="true" max-width="200" max-height="500" frameborder="0"></iframe>

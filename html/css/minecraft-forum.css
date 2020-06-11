@@ -117,6 +117,15 @@
 	grid-row-end: 14;
   }
 }
+
+@media (min-width: 1020px) {
+  .forum-server-address {
+  grid-column-start: 38;
+	grid-column-end: 48;
+	grid-row-start: 10;
+	grid-row-end: 14;
+  }
+}
 .forum-server-address-text {
 	color: black;
   font-weight: bold;
@@ -126,7 +135,7 @@
 
 @media (min-width: 1900px) {
   .forum-server-address-text {
-    font-size: 40px;
+    font-size: 25px;
 
   }
 }
@@ -142,7 +151,7 @@
 
 @media (min-width: 1900px) {
   .forum-address-button {
-    font-size: 40px;
+    font-size: 30px;
 
   }
 }
@@ -153,10 +162,6 @@
 	background-color: #373737;
   max-height: 35px;
   font-size: 2.5vw;
-  grid-column-start: 1;
-	grid-column-end: span 1;
-	grid-row-start: 3;
-	grid-row-end: span 1;
   padding-left: 40%; 
   padding-right: 50%; 
 }

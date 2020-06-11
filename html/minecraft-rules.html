@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Minecraft</title>
+  <title>Concordia rules</title>
   <meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="img/favicon.png"/>
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/minecraft.css" rel="stylesheet" type="text/css">
   <script src="js/minecraft.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -18,7 +20,7 @@
 	<div class="server-address">
 		<div class="server-address-text">
 		Join us at<br>
-		<button class="address-button" id="copy">concordia.mcserver.us</button>
+		<button class="address-button"  onclick="copyToClipboard('#p1')" id="p1">concordia.mcserver.us</button>
 		
 		
 		<div class="progress progress-striped active">
